@@ -21,14 +21,25 @@
             height: 400px
         }
 
+        .siz{
+          display: inline-block;
+          width: 50%;
+          padding: 0.5em;
+          border: 1px solid #999;
+          box-sizing: border-box;
+          background: #f2f2f2;
+          margin: 0.5em 0;
+        }
+
     </style>
       <div class="flex">
         <div class="imgjpg"><img id="nakayama" class="kinniku" src="nakayama.jpg" title=nakayamakinikkun></div>
-        <div><p>&nbsp;なかやまきんに君「アーノルド・シュワルツェネッガーの、正式な発音を知ってるかい！？
-        　僕が教えてあげよう！さあそのボタンを押してくれ！３％で成功するはずだ！！」</p>
-          <br>  &nbsp; <button id=strResult>パワー！！</button> 
-          <p>&nbsp;アーノルド・シュワル・・・&nbsp; <input type="text" readonly id="Result"></p>
-        </div>
+          <div>
+            <p>&nbsp;なかやまきんに君「アーノルド・シュワルツェネッガーの、正式な発音を知ってるかい！？
+        　     僕が教えてあげよう！さあそのボタンを押してくれ！」</p>
+            <br>  &nbsp; <button id=strResult>パワー！！</button> 
+            <p>&nbsp;アーノルド・シュワル・・・&nbsp; <input type="text" class="siz" readonly id="Result"></p>
+          </div>
         <div id="kinnikualert"></div>
       </div>
         <!--3％の確率で成功するようにスクリプトを書く-->
